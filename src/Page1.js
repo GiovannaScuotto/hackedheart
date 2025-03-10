@@ -42,7 +42,7 @@ function Page1({ setCurrentPage }) {
             src={userImage} 
             alt="Moderatore" 
           />
-         MODERATORE 🤍
+         <a href="https://www.instagram.com/imalwayssdaydreaming/" target="_blank" rel="noopener noreferrer">MODERATORE 🤍</a>
         </div>
 
         <div className="member-box">
@@ -52,7 +52,9 @@ function Page1({ setCurrentPage }) {
     <img className="member-img" src={member2Image} alt="Membro 2" />
     <img className="member-img" src={member3Image} alt="Membro 3" />
     <img className="member-img" src={member4Image} alt="Membro 4" />
-    <button className="view-all">VEDI TUTTO</button>
+    <button className="view-all" onClick={() => setCurrentPage('page3')}>
+  VEDI TUTTO ⭢
+</button>
   </div>
 </div>
       </div>

@@ -23,9 +23,9 @@ function App() {
 
       <div style={{ textAlign: "center", marginTop: "50px", color: "white" }}>
       {currentPage === 'home' && <HomePage setCurrentPage={setCurrentPage} />}
-        {currentPage === 'page1' && <Page1 />}
-        {currentPage === 'page2' && <Page2 />}
-        {currentPage === 'page3' && <Page3 />}
+        {currentPage === 'page1' && <Page1 setCurrentPage={setCurrentPage} />}
+        {currentPage === 'page2' && <Page2 setCurrentPage={setCurrentPage} />}
+        {currentPage === 'page3' && <Page3 setCurrentPage={setCurrentPage} />}
       </div>
     </div>
   );
