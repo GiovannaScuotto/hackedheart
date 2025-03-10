@@ -8,18 +8,18 @@ import member4Image from './images/member (4).jpg';
 
 function Page1({ setCurrentPage }) {
   return (
-    <div className="container">
+    <div className="container animate">
       {/* Pulsante per tornare indietro alla Home */}
-      <button className="back-button" onClick={() => setCurrentPage('home')}>
+      <button className="back-button animate" onClick={() => setCurrentPage('home')}>
       ⭠ TORNA INDIETRO
       </button>
 
-      <h1>HOME PAGE</h1>
+      <h1 className="animate">HOME PAGE</h1>
 
-        <div className="homepage-box">
+        <div className="homepage-box animate">
           <p>COSA SI CELA DIETRO LA STORIA DELLA <b>WINTERHAVEN HIGH SCHOOL?</b></p>
         </div>
-        <div className="sensitive-box">
+        <div className="sensitive-box animate">
           <img 
             className="img-sensitive" 
             src={sensitiveImage} 
@@ -32,11 +32,11 @@ function Page1({ setCurrentPage }) {
             This phone contains sensitive content which some people may find offensive or disturbing.
           </p>
       </div>
-      <button className="click-button" onClick={() => setCurrentPage('page2')}>
+      <button className="click-button animate" onClick={() => setCurrentPage('page2')}>
         CLICCA QUI!
       </button>
 
-        <div className="moderator-box">
+        <div className="moderator-box animate">
           <img 
             className="moderatore-img" 
             src={userImage} 
@@ -45,9 +45,9 @@ function Page1({ setCurrentPage }) {
          <a href="https://www.instagram.com/imalwayssdaydreaming/" target="_blank" rel="noopener noreferrer">MODERATORE 🤍</a>
         </div>
 
-        <div className="member-box">
+        <div className="member-box animate">
   <p>MEMBRI ISCRITTI</p>
-  <div className="member-content">
+  <div className="member-content animate">
     <img className="member-img" src={member1Image} alt="Membro 1" />
     <img className="member-img" src={member2Image} alt="Membro 2" />
     <img className="member-img" src={member3Image} alt="Membro 3" />

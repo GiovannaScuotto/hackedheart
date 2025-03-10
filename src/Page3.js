@@ -18,13 +18,13 @@ import member16Image from './images/member (16).jpg';
 
 function Page3({ setCurrentPage }) {
   return (
-    <div className="container">
-      <button className="back-button" onClick={() => setCurrentPage('page1')}>
+    <div className="container animate">
+      <button className="back-button animate" onClick={() => setCurrentPage('page1')}>
         ← TORNA INDIETRO
       </button>
 
-      <div className="member-title">MEMBRI ISCRITTI</div>
-      <div className="member-page">
+      <div className="member-title animate">MEMBRI ISCRITTI</div>
+      <div className="member-page animate">
       <div className="member-item"><img className="member-img" src={member3Image} alt="Membro 3" /> <p>Cayden Axel O'Connor</p></div>
       <div className="member-item"><img className="member-img" src={member16Image} alt="Membro 16" /> <p>Rochelle Ava Turner</p></div>
       <div className="member-item"><img className="member-img" src={member14Image} alt="Membro 14" /> <p>Liam Martin</p></div>

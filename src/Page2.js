@@ -3,15 +3,15 @@ import React from 'react';
 
 function Page2({ setCurrentPage }) {
   return (
-    <div className="title-post">
-      <button className="back-button" onClick={() => setCurrentPage('page1')}>
+    <div className="title-post animate">
+      <button className="back-button animate" onClick={() => setCurrentPage('page1')}>
       ⭠ TORNA INDIETRO
       </button>
-      <h1>Tragedia alla Winterhaven: 17enne trovata morta nel Lago Crystal</h1>
+      <h1 className="animate">Tragedia alla Winterhaven: 17enne trovata morta nel Lago Crystal</h1>
 
-      <h2>Omicidio o suicidio?</h2>
+      <h2 className="animate">Omicidio o suicidio?</h2>
 
-      <div className="post-box">
+      <div className="post-box animate">
         <p>
           Un evento scioccante ha colpito la comunità di Wraithmoor. Il corpo della 17enne Grace Morris, studentessa della Winterhaven High School, è stato ritrovato nel Lago Crystal, situato nelle profondità della Foresta di Silverleaf, a poca distanza dalla scuola che frequentava. Il macabro ritrovamento ha lasciato la comunità sconvolta, mentre le autorità locali affrontano il difficile compito di scoprire cosa sia accaduto alla giovane ragazza.
         </p>
@@ -26,14 +26,14 @@ function Page2({ setCurrentPage }) {
         </p>
         <h2>⚠️ RISERVATO – DIVULGAZIONE UNICAMENTE A PERSONALE AUTORIZZATO. ⚠️</h2>
       </div>
-      <div className="title-post">
-      <h1>FASCICOLO RISERVATO – DIPARTIMENTO DI POLIZIA</h1>
-      <h2>Sezione Indagini Scolastiche e del Benessere Studentesco
+      <div className="title-post animate">
+      <h1 className="animate">FASCICOLO RISERVATO – DIPARTIMENTO DI POLIZIA</h1>
+      <h2 className="animate">Sezione Indagini Scolastiche e del Benessere Studentesco
 
       Oggetto: Indagine su un elevato tasso di suicidi tra gli studenti – Winterhaven High School
       Data Inizio Indagine: [REDACTED]</h2>
       </div>
-      <div className="post-box">
+      <div className="post-box animate">
         <p><b>Premessa:</b></p>
         <p>
           In seguito a un preoccupante aumento dei casi di suicidio tra gli studenti della Winterhaven High School, sono state raccolte numerose segnalazioni riguardanti possibili abusi di potere da parte di alcuni insegnanti e un diffuso clima di bullismo.
