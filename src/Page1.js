@@ -1,8 +1,62 @@
-// src/Page1.js
 import React from 'react';
+import sensitiveImage from './images/sensitive.png';
+import userImage from './images/user.png';
+import member1Image from './images/member (1).jpg';
+import member2Image from './images/member (2).jpg';
+import member3Image from './images/member (3).jpg';
+import member4Image from './images/member (4).jpg';
 
-function Page1() {
-  return <h1>Page 1</h1>;
+function Page1({ setCurrentPage }) {
+  return (
+    <div className="container">
+      {/* Pulsante per tornare indietro alla Home */}
+      <button className="back-button" onClick={() => setCurrentPage('home')}>
+      ⭠ TORNA INDIETRO
+      </button>
+
+      <h1>HOME PAGE</h1>
+
+        <div className="homepage-box">
+          <p>COSA SI CELA DIETRO LA STORIA DEL <b>WINTERHAVEN HIGH SCHOOL?</b></p>
+        </div>
+        <div className="sensitive-box">
+          <img 
+            className="img-sensitive" 
+            src={sensitiveImage} 
+            alt="Contenuto Sensibile" 
+            max-width= "250px" 
+            max-height="230px"
+          />
+          <h2>SENSITIVE CONTENT</h2>
+          <p>
+            This phone contains sensitive content which some people may find offensive or disturbing.
+          </p>
+      </div>
+      <button className="click-button" onClick={() => setCurrentPage('page2')}>
+        CLICCA QUI!
+      </button>
+
+        <div className="moderator-box">
+          <img 
+            className="moderatore-img" 
+            src={userImage} 
+            alt="Moderatore" 
+          />
+         MODERATORE 🤍
+        </div>
+
+        <div className="member-box">
+  <p>MEMBRI ISCRITTI</p>
+  <div className="member-content">
+    <img className="member-img" src={member1Image} alt="Membro 1" />
+    <img className="member-img" src={member2Image} alt="Membro 2" />
+    <img className="member-img" src={member3Image} alt="Membro 3" />
+    <img className="member-img" src={member4Image} alt="Membro 4" />
+    <button className="view-all">VEDI TUTTO</button>
+  </div>
+</div>
+      </div>
+  );
 }
 
 export default Page1;
