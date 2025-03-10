@@ -17,7 +17,7 @@ function Page1({ setCurrentPage }) {
       <h1>HOME PAGE</h1>
 
         <div className="homepage-box">
-          <p>COSA SI CELA DIETRO LA STORIA DEL <b>WINTERHAVEN HIGH SCHOOL?</b></p>
+          <p>COSA SI CELA DIETRO LA STORIA DELLA <b>WINTERHAVEN HIGH SCHOOL?</b></p>
         </div>
         <div className="sensitive-box">
           <img 
