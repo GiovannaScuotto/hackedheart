@@ -9,9 +9,8 @@ import member4Image from './images/member (4).jpg';
 function Page1({ setCurrentPage }) {
   return (
     <div className="container animate">
-      {/* Pulsante per tornare indietro alla Home */}
       <button className="back-button animate" onClick={() => setCurrentPage('home')}>
-      ⭠ TORNA INDIETRO
+      ← TORNA INDIETRO
       </button>
 
       <h1 className="animate">HOME PAGE</h1>
@@ -53,7 +52,7 @@ function Page1({ setCurrentPage }) {
     <img className="member-img" src={member3Image} alt="Membro 3" />
     <img className="member-img" src={member4Image} alt="Membro 4" />
     <button className="view-all" onClick={() => setCurrentPage('page3')}>
-  VEDI TUTTO ⭢
+  VEDI TUTTO →
 </button>
   </div>
 </div>

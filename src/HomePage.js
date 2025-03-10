@@ -6,7 +6,7 @@ function HomePage({ setCurrentPage }) {
   return (
     <div className="container animate">
       <button className="go-button animate" onClick={() => setCurrentPage('page1')}>
-      AVANTI ⭢
+      AVANTI →
       </button>
       <div className="firsthome-box animate">
     Benvenuto/a su

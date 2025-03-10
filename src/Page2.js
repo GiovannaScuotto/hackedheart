@@ -5,7 +5,7 @@ function Page2({ setCurrentPage }) {
   return (
     <div className="title-post animate">
       <button className="back-button animate" onClick={() => setCurrentPage('page1')}>
-      ⭠ TORNA INDIETRO
+      ← TORNA INDIETRO
       </button>
       <h1 className="animate">Tragedia alla Winterhaven: 17enne trovata morta nel Lago Crystal</h1>
 

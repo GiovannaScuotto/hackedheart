@@ -20,7 +20,7 @@ function Page3({ setCurrentPage }) {
   return (
     <div className="container animate">
       <button className="back-button animate" onClick={() => setCurrentPage('page1')}>
-        ← TORNA INDIETRO
+      ← TORNA INDIETRO
       </button>
 
       <div className="member-title animate">MEMBRI ISCRITTI</div>
